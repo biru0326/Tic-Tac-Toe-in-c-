@@ -10,7 +10,8 @@ Tic-Tac-Toe-in-c-
 //The game is for 2 players only and will be played by one-one moves. 
 //If the user press characters other than input displayed continuously more than 5 times game will be over.
 //Checking for winninability : it is checked in horizontal, vertical and in cross(identity matrix) directions.
-//                             If continuous positions are found for any player in selected direction than that player //                             wins. If its not found than match is tied.
+//                             If continuous positions are found for any player in selected direction than that player 
+//                             wins. If its not found than match is tied.
                                  
                                  
 #include "stdafx.h"
