@@ -3,6 +3,16 @@ Tic-Tac-Toe-in-c-
 // tictac.cpp : Defines the entry point for the console application.
 //
 
+//I tried it to make it general, n*n matrix. So ticTacToeSize = n*n
+//if n < 3 the game cannot be played.
+//Also the minimum value to display in the tic tac toe game is ticTacToeMinValue = 1
+
+//The game is for 2 players only and will be played by one-one moves. 
+//If the user press characters other than input displayed continuously more than 5 times game will be over.
+//Checking for winninability : it is checked in horizontal, vertical and in cross(identity matrix) directions.
+//                             If continuous positions are found for any player in selected direction than that player //                             wins. If its not found than match is tied.
+                                 
+                                 
 #include "stdafx.h"
 #include <string>
 #include <iostream>
